@@ -42,13 +42,13 @@ const Navbar = () => {
             </ClerkLoading>
             <ClerkLoaded>
                 <SignedIn>
-                    <div className="cursor-pointer">
+                    <div className="cursor-pointer hidden md:block">
                         <Image src="/people.png" alt="" width={24} height={24} />
                     </div>
-                    <div className="cursor-pointer">
+                    <div className="cursor-pointer hidden md:block">
                         <Image src="/messages.png" alt="" width={20} height={20} />
                     </div>
-                    <div className="cursor-pointer">
+                    <div className="cursor-pointer hidden md:block">
                         <Image src="/notifications.png" alt="" width={20} height={20} />
                     </div>
                     <UserButton/>
